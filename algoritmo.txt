@@ -1,0 +1,36 @@
+ALGORITMO DEL PROCEDIDMIENTO DEL PROGRAMA
+	- pide le numero el indiviuo propietario de la cotizacion
+	- luego pide la edad del individuo
+	- luego pregunta si el individuo tiene conyuge
+		- si la respuesta es SI pregunta la edad del conyuge y si la respuesta es NO sigue con la siguiente pregunsta
+	- luego pregunta si el individuo tiene hijos
+		- si la respuesta es SI pregunta la cantidad de hijo que tiene y si la respuesta es NO sigue con la siguiente pregunsta
+	- luego pregunta si el individuo tiene alguna propiedad
+		- si la respuesta es SI pregunta la la cantidad de propiedades que posee y si la respuesta es NO sigue con la siguiente pregunsta
+	- luego pregunta si el individuo cuenta con un sueldo
+		- si la respuesta es SI pregunta el monto del sueldo y si la respuesta es no sigue con el proceso
+	- luego toma todos los datos ingresado y calcula el recargo total
+	- suma el recargo total con el precio base y entrega el RESULTADO.
+
+ALGORITMO DE LA PROGRAMACION
+	- defino las variables de precio base
+	- defino las variables del los rangos de edad con los porcentajes que le corresponden
+	- defino las variables de los rangos de edad del conyuge con los porcentanjes que le corresponden
+	- defino las variables de recargo, recargo total y precio final a 0
+	- defino la variable nombre a un PROMPT que pregunte el nombre del individuo
+	- defino la variable edad a un PROMPT que pregunte la edad del individuo
+	- defino la variable casado a un PROMPT que pregunte al individuo si tiene conyuge
+	- defino la variable edad_conyuge a un PROMPT que pregunte la edad del conyuge del individuo
+	- convierto las variables de edad y edad_conyuge a numeros
+	- defino la variable hijos a un PROMPT que pregunte al individuo si tiene hijos
+	- defino la variable cantidad_hijos a un PROMPT que pregunte la cantidad de hijos que tiene el individuo
+	- calculo el recargo de edad del individuo con el rango de edad corresponde
+	- calculo el recargo total sumandolo al recargo 
+	- calculo el recargo de edad_conyuge con el rango de edad corresponde
+	- calculo el recargo total sumandolo al recargo actual
+	- calculo el recargo de cantidad_hijos * (precio base * recargo de hijos)
+	- calculo el recargo total sumandolo al recargo actual
+	- calculo el precio final sumando recargo total con el precio base
+	- uso la propiedad ALERT para mostratle al individuo el nombre que ingreso
+	- uso la propiedad ALERT para mostratle al individuo el recargo total que se calculo
+	- uso la propiedad ALERT para mostratle al individuo el precio final

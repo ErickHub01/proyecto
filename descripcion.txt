@@ -1,0 +1,12 @@
+   descripción de  problemas del codigo base
+	- faltaba convertir la cantidad de hijos a numeros
+	- faltaba el PROMTP para ingresar el numero de hijos
+	- faltaba calcular el recargo de los rangos de edad
+	- faltaba calcular el recargo de los rangos de edad del conyuge
+	- faltaba calculal el recargo por la cantidad de hijos
+	- tambien faltaban los recargos extras por propiedad y sueldo
+	- tambien poner un aviso sobre que los menores de 18 años no podian cotizar un seguro
+
+los casos que se estan considerando para cambiar el valor de la cotización, en esto infliye la edad del individuo, si el individuo tiene conyuge o no y la edad del conyuje
+si tiene hijos o no, en caso de tenerlos se aplica un 10% sobre el precio base por cada hijo
+tambien influye el numero de propiedad que el individuo tiene por cada propiedad es un 35% sobre el precio base y el sueldo influye con un 5% sobre el monto del sueldo
